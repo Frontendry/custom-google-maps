@@ -1,0 +1,123 @@
+/** RESET **/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+img {
+    border: 0;
+    display: block;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    font-size: 100%;
+    line-height: 110%;
+    width: 100%;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    color: #D5D5D5;
+    background: #2C2C2C;
+}
+/** TYPOGRAPHY **/
+
+p {
+    font-size: 0.9375em;
+    padding: 0 0 10px;
+    line-height: 170%;
+    color: #1C4C54;
+}
+
+h1 {
+    font-size: 2.9375em;
+    font-weight: normal;
+    line-height: 100%;
+    font-family:'Droid Serif', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.875em;
+    font-weight: normal;
+    line-height: 100%;
+    font-family:'Droid Serif', Helvetica, Arial, sans-serif;
+    color: #1C4C54;
+}
+
+/** LAYOUT CONTAINERS AND THEIR RELATED ELEMENTS **/
+#pageWrapper {
+    position: relative;
+}
+
+.centerLayout {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+}
+
+.topSectionBar {
+    width: 100%;
+    background: #000000;
+    margin: 0 0 20px;
+}
+
+.innerTopSectionBar {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.back-tutorial {
+    float: right;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    
+}
+
+.back-tutorial:hover {
+    color: #B6D1D6;
+}
+
+.introTtl h1 {
+    margin: 41px 0 60px;
+    text-align: center;
+}
+
+#contentArea {
+    text-align: center;
+    padding: 0 0 30px;
+}
+#myMap {
+    width:100%;
+    height: 400px;    
+}
